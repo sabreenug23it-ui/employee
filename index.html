@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>Employee Directory</nav>
+    <div class="container">
+      <div class="counter">Total Employees: <span id="count">0</span></div>
+
+      <form id="employeeForm">
+        <input type="text" id="name" placeholder="Enter Name" required />
+        <input type="text" id="role" placeholder="Enter Role" required />
+        <input type="url" id="photo" placeholder="Enter Image URL" />
+        <button type="submit">Add Employee</button>
+      </form>
+
+      <div class="employee-list" id="employeeList"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
